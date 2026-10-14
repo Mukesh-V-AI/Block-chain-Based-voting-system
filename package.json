@@ -1,0 +1,24 @@
+{
+  "name": "blockvote-project",
+  "version": "1.0.0",
+  "description": "BlockVote - Blockchain-Based Decentralized Voting DApp",
+  "scripts": {
+    "start:node": "cd smart-contracts && npx hardhat node",
+    "deploy:local": "cd smart-contracts && npx hardhat run scripts/deploy.js --network localhost",
+    "test:contracts": "cd smart-contracts && npx hardhat test",
+    "dev": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "blockchain",
+    "voting",
+    "ethereum",
+    "solidity",
+    "hardhat",
+    "react",
+    "vite",
+    "ethers"
+  ],
+  "author": "",
+  "license": "MIT"
+}
